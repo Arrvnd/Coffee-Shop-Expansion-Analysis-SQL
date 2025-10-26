@@ -11,9 +11,9 @@ DROP TABLE IF EXISTS city;
 -- 1st import to city                           
 -- 2nd import to products                            
 -- 3rd import to customers                       
--- 4th import to sales                  
+-- 4th import to sales 
 
-CREATE TABLE city                                        
+CREATE TABLE city
 (                                
 	city_id	INT PRIMARY KEY,                                     
 	city_name VARCHAR(15),	                                       
